@@ -30,7 +30,8 @@ INSERT INTO users (id, login, money_amount, card_number, status) VALUES
 (2, 'alice', 450.00, '4111 2222 3333 4444', 'active'),
 (3, 'bob', 120.30, '5200 8888 9999 1111', 'active'),
 (4, 'charlie', 0.00, '5399 0000 1111 2222', 'inactive'),
-(5, 'dave', 50.10, '4222 3333 4444 5555', 'inactive');
+(5, 'dave', 50.10, '4222 3333 4444 5555', 'inactive'),
+(6, 'simply', 500, '7777 7777 7777 7777', 'active');
 
 -- Заполнение таблицы паролей для каждого пользователя
 INSERT INTO passwords (user_id, password) VALUES
@@ -38,7 +39,8 @@ INSERT INTO passwords (user_id, password) VALUES
 (2, 'alice_secure_pass_99'),
 (3, 'bob_qwerty_123'),
 (4, 'charlie_old_2024'),
-(5, 'dave_guest_pwd');
+(5, 'dave_guest_pwd'),
+(6, 'Very_srtong_passwd!');
 
 INSERT INTO banks (user_id, bank_name) VALUES
 (1, 'Sberbank'),
